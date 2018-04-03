@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="es">
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet" type='text/css'>
+<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+    crossorigin="anonymous"></script>
+
+<head>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <nav class="regular">
+            <div class="logoinicio">
+                <img src="./logo.png" alt="logothefox">
+                <h1>The<strong class="black">Fox</strong>
+                </h1>
+            </div>
+            <ul>
+                <li class="active">
+                    <a href="#" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="#">Page</a>
+                </li>
+                <li>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Shop</a>
+                </li>
+                <li>
+                    <a href="#">Travel</a>
+                </li>
+                <li>
+                    <a href="#">Shortcodes</a>
+                </li>
+                <li>
+                    <a href="#">Features</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-shopping-basket"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <header>
+        <img class="image" src="./bg1.jpg" alt="background1">
+    </header>
+
+    <section class="wrapper">
+        <div class="padding1 sec_reasons regular">
+            <div class="izquierda">
+                <h2 class="light">Hello!</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, neque, inventore alias magni iste suscipit
+                    sapiente aperiam ex quaerat quidem illum enim voluptatem eos! Ex obcaecati in laboriosam nihil perferendis?</p>
+                <h4 class="bold">
+                    WordPress Drag & Drop Page Theme
+                </h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde inventore recusandae dolore temporibus doloremque
+                    optio delectus minima praesentium itaque similique! Fugiat minus maxime sapiente? Labore aperiam deleniti
+                    esse doloribus animi!Expedita molestiae, libero debitis sed alias, odio impedit animi sapiente cumque
+                    doloribus laboriosam. Officiis veniam iure, optio excepturi beatae debitis pariatur nobis quas aut, rerum
+                    totam blanditiis! Quia, fugiat! Beatae!</p>
+                <button class="button_form tamaño1 black">VIEW DETAIL</button>
+            </div>
+
+            <div class="derecha">
+                <div class="desplegable bold" onClick="desplegar('1')">
+                    <div class="floatearizq">
+                        Web Design Service
+                    </div>
+                    <div class="flotearder">
+                        <i id="icono1" class="fas fa-angle-down"></i>
+                    </div>
+                </div>
+                <div class="desplegable texto" id="texto1">
+                    <img src="https://picsum.photos/100/100/?random" alt="Imagen porno" />
+                    <p>
+                        ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam eveniet non, enim quos odit magnam tempora nulla ipsum, nostrum
+                        in voluptatum? Blanditiis reprehenderit cupiditate aspernatur itaque molestias delectus alias. Officia?</p>
+                    <p>
+                </div>
+
+                <div class="desplegable bold" onClick="desplegar('2')">
+                    <div class="floatearizq">
+                        Creative Service
+                    </div>
+                    <div class="flotearder">
+                        <i id="icono2" class="fas fa-angle-down"></i>
+                    </div>
+
+                </div>
+                <div class="desplegable texto" id="texto2">
+                    <img src="https://picsum.photos/100/100/?random" alt="Imagen porno" />
+                    <p>
+                        ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam eveniet non, enim quos odit magnam tempora nulla ipsum, nostrum
+                        in voluptatum? Blanditiis reprehenderit cupiditate aspernatur itaque molestias delectus alias. Officia?</p>
+                    <p>
+                </div>
+                <div class="desplegable bold" onClick="desplegar('3')">
+                    <div class="floatearizq">
+                        SEO Solution Service
+                    </div>
+                    <div class="flotearder">
+                        <i id="icono3" class="fas fa-angle-down"></i>
+                    </div>
+                </div>
+                <div class="desplegable texto" id="texto3">
+                    <img src="https://picsum.photos/100/100/?random" alt="Imagen porno" />
+                    <p>
+                        ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam eveniet non, enim quos odit magnam tempora nulla ipsum, nostrum
+                        in voluptatum? Blanditiis reprehenderit cupiditate aspernatur itaque molestias delectus alias. Officia?</p>
+                    <p>
+                </div>
+                <div class="desplegable bold" onClick="desplegar('4')">
+                    <div class="floatearizq">
+                        Graphic Design Service
+                    </div>
+                    <div class="flotearder">
+                        <i id="icono4" class="fas fa-angle-down"></i>
+                    </div>
+
+                </div>
+                <div class="desplegable texto" id="texto4">
+                    <img src="https://picsum.photos/100/100/?random" alt="Imagen porno" />
+                    <p>
+                        ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam eveniet non, enim quos odit magnam tempora nulla ipsum, nostrum
+                        in voluptatum? Blanditiis reprehenderit cupiditate aspernatur itaque molestias delectus alias. Officia?</p>
+                    <p>
+                </div>
+
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+            crossorigin="anonymous"></script>
+        <script>
+            function desplegar(numero) {
+
+                var display = $("#texto" + numero).css("display");
+                if (display != "none") {
+                    $("#texto" + numero).attr("style", "display:none");
+                    $("#icono" + numero).removeClass("fas fa-angle-up");
+                    $("#icono" + numero).addClass("fas fa-angle-down");
+                } else {
+                    $("#texto" + numero).attr("style", "display:block");
+                    $("#icono" + numero).removeClass("fas fa-angle-down");
+                    $("#icono" + numero).addClass("fas fa-angle-up");
+                }
+
+            }
+        </script>
+    </section>
+
+    <SECTION class="sect_work">
+        <div class="wrapper">
+            <div class="padding1 sec_works bold">
+                <h2 class="light">Amazing Works</h2>
+                <div class="works">
+                    <div class="caja">
+                        <div class="cabecera">
+                            <h3 class="flotearizq">Awesome Work Title Here</h3>
+                            <p class="flotearder">
+                                60
+                                <i class="fa fa-heart" title="Edit"></i>
+                            </p>
+                        </div>
+                        <div class="cuerpo">
+                            <img src="https://picsum.photos/200/200/?random" alt="Imagen porno" />
+                        </div>
+                    </div>
+                    <div class="caja">
+                        <div class="cabecera">
+                            <h3 class="flotearizq">Awesome Work Title Here</h3>
+                            <p class="flotearder">
+                                60
+                                <i class="fa fa-heart" title="Edit"></i>
+                            </p>
+                        </div>
+                        <div class="cuerpo">
+                            <img src="https://picsum.photos/200/200/?random" alt="Imagen porno"  />
+                        </div>
+                    </div>
+                    <div class="caja">
+                        <div class="cabecera">
+                            <h3 class="flotearizq">Awesome Work Title Here</h3>
+                            <p class="flotearder">
+                                60
+                                <i class="fa fa-heart" title="Edit"></i>
+                            </p>
+                        </div>
+                        <div class="cuerpo">
+                            <img src="https://picsum.photos/200/200/?random" alt="Imagen porno" />
+                        </div>
+                    </div>
+                    <div class="caja">
+                        <div class="cabecera">
+                            <h3 class="flotearizq">Awesome Work Title Here</h3>
+                            <p class="flotearder">
+                                60
+                                <i class="fa fa-heart" title="Edit"></i>
+                            </p>
+                        </div>
+                        <div class="cuerpo">
+                            <img src="https://picsum.photos/200/200/?random" alt="Imagen porno" />
+                        </div>
+                    </div>
+                    <div class="caja">
+                        <div class="cabecera">
+                            <h3 class="flotearizq">Awesome Work Title Here</h3>
+                            <p class="flotearder">
+                                60
+                                <i class="fa fa-heart" title="Edit"></i>
+                            </p>
+                        </div>
+                        <div class="cuerpo">
+                            <img src="https://picsum.photos/200/200/?random" alt="Imagen porno"  />
+                        </div>
+                    </div>
+                    <div class="caja">
+                        <div class="cabecera">
+                            <h3 class="flotearizq">Awesome Work Title Here</h3>
+                            <p class="flotearder">
+                                60
+                                <i class="fa fa-heart" title="Edit"></i>
+                            </p>
+                        </div>
+                        <div class="cuerpo">
+                            <img src="https://picsum.photos/200/200/?random" alt="Imagen porno"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </SECTION>
+
+
+    <section class="wrapper">
+        <div class="padding1 sec_reasons regular">
+            <div class="izquierda">
+                <h2 class="light">Why work with us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis vitae expedita, repellendus ea officia
+                    voluptates exercitationem modi aliquid omnis vero enim quae dolore quidem labore reprehenderit quo fuga
+                    nulla nobis!</p>
+                <p>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis repudiandae doloribus ab expedita
+                        doloremque, eveniet quaerat neque fuga quae sit asperiores ea, dolor voluptatum? Dolor laborum eos
+                        ducimus unde natus!</span>
+                    <span>Distinctio ipsum saepe fugiat corrupti mollitia quo at voluptatum libero, officiis dignissimos deleniti
+                        amet quasi aperiam quae debitis a eum doloremque nihil, itaque temporibus rem. Nisi odit illo maiores
+                        ea.
+                    </span>
+                    <span>In saepe cumque atque recusandae at, quidem, voluptas animi tenetur, incidunt velit ex ab doloribus error
+                        sit commodi illo sunt eius voluptates ducimus harum ipsam. Sunt sequi cumque obcaecati enim.</span>
+                </p>
+                <div class="buttongris black">VIEW DETAIL</div>
+            </div>
+            <div class="derecha">
+                <img src="./movil.jpg" alt="foto_movil">
+            </div>
+        </div>
+    </section>
+
+    <section class="sec_info black">
+        <div class="cuadro cuadro1">
+            <h2 class="light">28,3940</h2>
+            <p>PURCHASES</p>
+        </div>
+        <div class="cuadro cuadro2">
+            <h2 class="light">345,789</h2>
+            <p>SUBSCRIBERS</p>
+        </div>
+        <div class="cuadro cuadro3">
+            <h2 class="light">694+</h2>
+            <p>FEATURES ADDED</p>
+        </div>
+        <div class="cuadro cuadro4">
+            <h2 class="light">1,273,890</h2>
+            <p>CUSTOMERS</p>
+        </div>
+        <div class="cuadro cuadro5">
+            <h2 class="light">3,637</h2>
+            <p>COMMENTS</p>
+        </div>
+    </section>
+
+    <section class="wrapper">
+        <div class="padding1 sec_persons">
+            <h2>What Other Say About TheFox</h2>
+            <div class="botones_personas">
+                <div class="button_personas previous">
+                    < Previous</div>
+                        <div class="button_personas next bold">Next ></div>
+                </div>
+
+                <div class="personas">
+                    <div class="persona">
+                        <div class="persona_img">
+                            <img src="https://picsum.photos/100/100/?random" alt="imagen_persona">
+                        </div>
+                        <div class="persona_texto">
+                            <h3 class="bold">Sam Isbisters</h3>
+                            <h4 class="regular">Web Designer</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, amet expedita. Repellat suscipit
+                                voluptas vero quas nemo corrupti porro perferendis, dolore cupiditate, voluptates amet dolorum
+                                illum? Saepe temporibus eligendi accusantium.</p>
+                        </div>
+                    </div>
+                    <div class="persona">
+                        <div class="persona_img">
+                            <img src="https://picsum.photos/100/100/?random" alt="imagen_persona">
+                        </div>
+                        <div class="persona_texto">
+                            <h3 class="bold">John Doe</h3>
+                            <h4 class="regular">Web Designer</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, amet expedita. Repellat suscipit
+                                voluptas vero quas nemo corrupti porro perferendis, dolore cupiditate, voluptates amet dolorum
+                                illum? Saepe temporibus eligendi accusantium.</p>
+                        </div>
+                    </div>
+                    <div class="persona">
+                        <div class="persona_img">
+                            <img src="https://picsum.photos/100/100/?random" alt="imagen_persona">
+                        </div>
+                        <div class="persona_texto">
+                            <h3 class="bold">Jane Doe</h3>
+                            <h4 class="regular">Web Designer</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, amet expedita. Repellat suscipit
+                                voluptas vero quas nemo corrupti porro perferendis, dolore cupiditate, voluptates amet dolorum
+                                illum? Saepe temporibus eligendi accusantium.</p>
+                        </div>
+                    </div>
+                    <div class="persona">
+                        <div class="persona_img">
+                            <img src="https://picsum.photos/100/100/?random" alt="imagen_persona">
+                        </div>
+                        <div class="persona_texto">
+                            <h3 class="bold">Tran Mau Tri Tram</h3>
+                            <h4 class="regular">Web Designer</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, amet expedita. Repellat suscipit
+                                voluptas vero quas nemo corrupti porro perferendis, dolore cupiditate, voluptates amet dolorum
+                                illum? Saepe temporibus eligendi accusantium.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="wrapper">
+        <div class="sec_logos">
+            <img src="./telenor.png" alt="logo_telenor">
+            <img src="./nice.png" alt="logo_nice">
+            <img src="./plate.png" alt="logo_plate">
+            <img src="./brilliant.png" alt="logo_brilliant">
+            <img src="./microsoft.png" alt="logo_microsoft">
+            <img src="./colormedia.png" alt="logo_colormedia">
+        </div>
+    </section>
+
+    <section class="sec_maps">
+        <div id="map" style="width:100%;height:500px;background:#1AD5B0"></div>
+        <!-->
+        <script>
+                function myMap() {
+                    var mapOptions = {
+                        center: new google.maps.LatLng(51.5, -0.12),
+                        zoom: 10,
+                        mapTypeId: google.maps.MapTypeId.HYBRID
+                    }
+                    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+                }
+            </script>
+        <!-->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvmhfLR_yYXizL4Dzd1RTsBlmW383xOYk &callback=myMap"></script>
+    </section>
+
+    <section class="wrapper">
+        <div class="padding1 sec_forms regular">
+            <div class="form_izquierda">
+                <h2 class="light">TheFox Design</h2>
+                <div class="redes">
+                    <i class="red fab fa-facebook-f"></i>
+                    <i class="red fab fa-twitter"></i>
+                    <i class="red fas fa-rss"></i>
+                    <i class="red fab fa-google-plus-g"></i>
+                    <i class="red fas fa-ellipsis-h"></i>
+                    <i class="red fas fa-basketball-ball"></i>
+                    <i class="red fab fa-linkedin-in"></i>
+                    <i class="red fab fa-pinterest-p"></i>
+                    <i class="red fab fa-skype"></i>
+                    <i class="red fab fa-vimeo-v"></i>
+                    <i class="red fab fa-tumblr"></i>
+
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis omnis quas quo delectus dolores iure doloribus
+                    sint consectetur adipisci, consequatur aliquam temporibus modi! Eos distinctio nam ab vero quo similique?</p>
+                <p>267 Banbury Road, Summertown</p>
+                <p>Oxford, United Kingdom OX2 7HT</p>
+                <p>United Kingdom</p>
+                <p>Phone: 01865 339665</p>
+                <p>Fax: 01865 339301</p>
+                <p>Email: hello@thefoxdesign.com</p>
+            </div>
+            <div class="form_derecha">
+                <input placeholder="Name*">
+                <input placeholder="Email*">
+                <input placeholder="Phone Number">
+                <input placeholder="">
+                <button class="button_form black">Submit now</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="sec_blogs">
+        <div class="image_blog">
+
+            <img src="https://picsum.photos/200/200/?random" alt="imagen_blog"  />
+
+            <div class="titulo_blog">
+                <h2 class="bold">Standard Blog Title Here</h2>
+                <p class="regular">27 July, 2014 | Category</p>
+            </div>
+
+
+        </div>
+        <div class="image_blog">
+
+            <img src="https://picsum.photos/200/200/?random" alt="imagen_blog"  />
+
+            <div class="titulo_blog">
+                <h2 class="bold">Standard Blog Title Here</h2>
+                <p class="regular">27 July, 2014 | Category</p>
+            </div>
+
+
+        </div>
+        <div class="image_blog">
+
+            <img src="https://picsum.photos/200/200/?random" alt="imagen_blog"  />
+
+            <div class="titulo_blog">
+                <h2 class="bold">Standard Blog Title Here</h2>
+                <p class="regular">27 July, 2014 | Category</p>
+            </div>
+
+
+        </div>
+        <div class="image_blog">
+
+            <img src="https://picsum.photos/200/200/?random" alt="imagen_blog"  />
+
+            <div class="titulo_blog">
+                <h2>Standard Blog Title Here</h2>
+                <p class="regular">27 July, 2014 | Category</p>
+            </div>
+
+
+        </div>
+        <div class="image_blog">
+
+            <img src="https://picsum.photos/200/200/?random" alt="imagen_blog"  />
+
+            <div class="titulo_blog">
+                <h2 class="bold">Standard Blog Title Here</h2>
+                <p class="regular">27 July, 2014 | Category</p>
+            </div>
+
+
+        </div>
+    </section>
+
+    <img src="./fondomalo.jpg" alt="fondocompra" />
+
+    <footer class="wrapper">
+        <div class="secfooter">
+            <div>
+                <h1 class="regular">
+                    the<strong>fox</strong>
+                </h1>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, sed voluptas voluptatem debitis sequi maiores delectus ad
+                    laboriosam placeat. Id odit voluptates, neque minima sint nostrum eligendi laudantium? Asperiores, sit!Repellat
+                    magni, veritatis aspernatur a autem ab hic accusamus consequuntur soluta corrupti veniam accusantium
+                    excepturi minus maiores consequatur, nam animi dicta harum. Quae perferendis voluptas quis error ipsum
+                    commodi. Mollitia.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima explicabo accusamus, magni laudantium eaque incidunt unde
+                    id aliquid, quod fuga cum voluptatibus iusto dolore fugit. Magni dignissimos eveniet amet voluptate?
+                </p>
+            </div>
+            <div>
+                <h2>
+                    Recent Post
+                </h2>
+                <div class="cabecera">
+                    <p class="flotearizq">
+                        Blog SlideShow Post
+                    </p>
+                    <p class="flotearder">
+                        03 Jul
+                    </p>
+                </div>
+                <hr>
+                <div class="cabecera">
+                    <p class="flotearizq">
+                        Standard Post
+                    </p>
+                    <p class="flotearder">
+                        27 May
+                    </p>
+                </div>
+                <hr>
+                <div class="cabecera">
+                    <p class="flotearizq">
+                        Video Post With Quote Post
+                    </p>
+                    <p class="flotearder">
+                        23 May
+                    </p>
+                </div>
+                <hr>
+                <div class="cabecera">
+                    <p class="flotearizq">
+                        Text Post Only Type
+                    </p>
+                    <p class="flotearder">
+                        15 Apr
+                    </p>
+                </div>
+                <hr>
+                <div class="cabecera">
+                    <p class="flotearizq">
+                        Awesome Post Title Here
+                    </p>
+                    <p class="flotearder">
+                        04 Mar
+                    </p>
+                </div>
+            </div>
+            <div>
+                <h2>Recent tweets</h2>
+                <div class="tweets">
+                    <div class="tweet">
+                        <p>
+                            <i class="fab fa-twitter-square fa-3x"></i>
+                        </p>
+                        <p>
+                            Just updated my new site. @samibister @wjndheo
+                        </p>
+                    </div>
+                    <p>
+                        <small>35 minutes ago</small>
+                    </p>
+                </div>
+                <hr>
+                <div class="tweets">
+                    <div class="tweet">
+                        <p>
+                            <i class="fab fa-twitter-square fa-3x"></i>
+                        </p>
+                        <p>
+                            Hey everybody! Adelfox Update WP version. 365 Core Features Addes. Check it now!
+                            <a href="http://t.co/38t6sjx">http://t.co/38t6sjx</a> @samibister @wjndheo
+                        </p>
+                    </div>
+                    <p>
+                        <small>35 minutes ago</small>
+                    </p>
+                </div>
+            </div>
+            <div>
+                <h2>Featured Works</h2>
+                <div class="reja">
+                    <img src="https://picsum.photos/85/85/?random" alt="">
+                    <img src="https://picsum.photos/85/85/?random" alt="">
+                    <img src="https://picsum.photos/85/85/?random" alt="">
+                    <img src="https://picsum.photos/85/85/?random" alt="">
+                    <img src="https://picsum.photos/85/85/?random" alt="">
+                    <img src="https://picsum.photos/85/85/?random" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section class="copyright">
+        <div class="wrapper">
+            <div class="copys regular">
+                <p>Copyright 2014
+                    <a href="#">TheFoxTheme</a> by Tran Mau Tri Tram | All rights Reserved | Powered by WordPress</p>
+                <div class="redes">
+
+                    <i class="red fab fa-facebook-f"></i>
+                    <i class="red fab fa-twitter"></i>
+                    <i class="red fab fa-tumblr"></i>
+                    <i class="red fab fa-vimeo-v"></i>
+                    <i class="red fab fa-linkedin-in"></i>
+                    <i class="red fas fa-basketball-ball"></i>
+                    <i class="red fab fa-instagram"></i>
+                    <i class="red fas fa-rss"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
